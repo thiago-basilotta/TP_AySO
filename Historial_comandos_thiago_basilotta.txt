@@ -1,0 +1,19 @@
+cd ~/repogit_nuevo/TP_AySO
+cat <<EOL >> README.md
+
+<thiago basilotta> 
+<turno: mañana>
+<división: 116>
+EOL
+
+cat README.md 
+git add README.md
+git commit -m "ADD: Información del alumno al README"
+Agregar al stage área del repositorio local el nuevo archivo y volvemos a comitear.
+Siguiendo las buenas practicas de: https://www.conventionalcommits.org/es/v1.0.0-beta.3/
+Realizar el commit con la convención definida para el Tipo documentación., con el texto que crea
+conveniente.
+git add README.md
+git commit -m "docs: agregar información del alumno en el README"
+git status
+history -a
